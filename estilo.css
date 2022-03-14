@@ -69,7 +69,7 @@ body {
 .welcome {
     height: 200px;
     background-image: url(img/fondo-welcome.jpg);
-    background-size: 1000px;
+    background-size: 100%;
     margin: 10px 9px;
 
 }
@@ -127,6 +127,15 @@ body {
     font-weight:normal;
 }
 
+
+
+@media (max-width: 500px) {
+    .seccion-de-ventas {
+    display: block;
+    }
+    
+
+}
 
 
 @media (max-width: 700px) {
