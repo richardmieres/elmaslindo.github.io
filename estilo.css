@@ -1,0 +1,167 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-weight: 400;
+}
+
+
+
+
+body {
+    background-color: #222831;
+    font-family: 'Sen', sans-serif;
+    color: #EEEEEE;
+    text-decoration: none;
+}
+
+/*header*/
+
+.header-nav {
+    background-color: #393E46;
+}
+
+
+
+
+.header-li {
+    display: inline-block;
+    padding: 4px 9px;
+    box-sizing: border-box;
+    padding: 12px;
+    margin: 0px 7px;
+    
+}
+
+
+
+.header li a{ 
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+
+
+.header-li:hover {
+    background-color: #222831;
+    border-bottom: 1px #fff solid;
+    border-right: #fff;
+}
+
+
+
+.header-li-donloawd {
+    position: absolute;
+    right: 0px;
+    display: inline-block;
+    padding: 15px 9px;
+    margin: 0px 7px;
+    box-sizing: border-box;
+}
+
+
+/*welcome*/
+
+
+
+.welcome {
+    height: 200px;
+    background-image: url(img/fondo-welcome.jpg);
+    background-size: 1000px;
+    margin: 10px 9px;
+
+}
+
+
+
+
+.welcome h1 {
+    text-align: center;
+    top: 200px;
+    padding: 8px;
+    margin-top: 4px;
+}
+
+
+.h3 { 
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+
+/*articulos-de-ventas*/
+
+
+.seccion-de-ventas{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.articulos-de-ventas {
+    gap: 20px;
+    background-color: #393E46;
+    box-sizing: border-box;
+    border-radius: 20px;
+    text-align: center;
+    color: #EEEEEE;
+    margin: 5px 10px ;
+    padding: 10px;
+}
+
+ 
+.articulos-de-ventas h4 {
+    padding: 5px;
+    font-weight: 500;
+}
+
+
+.articulos-de-ventas h5 {
+    margin: 8px 2px;
+    font-weight:normal;
+}
+
+
+
+@media (max-width: 700px) {
+
+    .seccion-de-ventas {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .header-li {
+        display: flex;
+    }
+
+    .header-li-donloawd {
+        position: relative;
+        display: flex;
+        padding: 4px 9px;
+        box-sizing: border-box;
+        padding: 12px;
+        margin: 0px 7px;
+    }
+    .header-li-donloawd:hover {
+        background-color: #222831;
+        border-bottom: 1px #fff solid;
+        border-right: #fff;
+    }
+
+    
+}
+
+
+
+@media (max-width: 500px) {
+    .seccion-de-ventas {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
