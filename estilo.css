@@ -86,13 +86,12 @@ body {
 
 
 
-.articulos-de-ventas {
-    display: inline-block;
+.seccion-de-ventas {
+    display: grid;
+    grid-template-colums: repeat(3, 1fr);
     background-color: #393E46;
     box-sizing: border-box;
     border-radius: 20px;
-    width: 310px;
-    height: 270px;
     text-align: center;
     color: #EEEEEE;
     margin: 20px 10px ;
