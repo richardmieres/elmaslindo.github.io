@@ -129,7 +129,7 @@ body {
 
 
 
-@media (max-width: 500px) {
+@media only screen and (max-width: 500px) {
     .seccion-de-ventas {
     display: block;
     }
@@ -138,7 +138,7 @@ body {
 }
 
 
-@media (max-width: 700px) {
+@media  only screen and (max-width: 700px) {
 
     .seccion-de-ventas {
         display: grid;
@@ -168,7 +168,7 @@ body {
 
 
 
-@media (max-width: 500px) {
+@media only screen and (max-width: 500px) {
     .seccion-de-ventas {
         display: grid;
         grid-template-columns: 1fr;
